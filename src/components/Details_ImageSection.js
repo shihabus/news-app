@@ -20,7 +20,7 @@ ImageSection.propTypes={
 
 const styles = StyleSheet.create({
     container: {
-        marginVertical: 5,
+        // marginVertical: 5,
     },
     image: {
         height: 200,

@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, Image, TouchableOpacity, ImageBackground } from 'react-native';
+import { View, Text, FlatList, StyleSheet, TouchableOpacity, ImageBackground } from 'react-native';
 import PropTypes from 'prop-types';
 import Header from '../components/Header'
+import {HeaderTitle} from '../components'
 export const NewsCard = ({ article, handleSelection }) => {
 
     renderSeparator = () => (<View style={styles.itemLineSeparator} />)
@@ -36,7 +37,9 @@ export const NewsCard = ({ article, handleSelection }) => {
 
     return (
         <View style={{ flex: 1, justifyContent: 'center',flexDirection: 'column',backgroundColor: '#e1e1e1', }}>
-            <Header/>
+            <Header>
+                <HeaderTitle title='Articles'/>
+            </Header>
             <View style={{ width:'100%',overflow:'visible',top:'13%',alignSelf: 'center', }}>
                     <FlatList
                         data={article}

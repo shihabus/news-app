@@ -26,15 +26,6 @@ export default class Loader extends React.Component {
     }
 }
 
-// export const Loader=()=> {
-//     return (
-//         <View style={styles.container}>
-//         <ActivityIndicator size="large" color="#6a6a6a" />
-//             <Text>Loading.....</Text>
-//         </View>
-//     )
-// }
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,

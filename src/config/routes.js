@@ -5,7 +5,7 @@ import DetailsPage from '../app/DetailsPage/DetailsPage';
 const AppNavigator = createStackNavigator(
   {
     Home: HomePage,
-    Details: DetailsPage
+    Details: DetailsPage,
   },
   {
     headerMode: 'none',

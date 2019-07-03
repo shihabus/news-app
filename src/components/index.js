@@ -5,3 +5,5 @@ export * from './Loader';
 export * from './Home_NewsCard';
 export * from './Details_TextSection';
 export * from './CustomStatusBar';
+export * from './BackButton';
+export * from './HeaderTitle';
